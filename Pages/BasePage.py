@@ -7,7 +7,7 @@ class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.base_url = "https://kfund.github.io/star-wars-shop/"
+        self.base_url = "https://kfund.github.io/test-shop/"
 
     def find_element(self, xpath, time=10):
         return WebDriverWait(self.driver, time).until(EC.presence_of_element_located((By.XPATH, xpath)),

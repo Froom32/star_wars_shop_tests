@@ -3,7 +3,7 @@ from Pages.BasePage import BasePage
 
 class HomePageSearchLocators:
     XPATH_BUTTON_CART = "/html/body/nav/div/div/div[1]/div[1]/span"
-    XPATH_FIRST_GOOD_IN_CART = "/html/body/div[1]/div/div/div[2]/ul[1]/li/div[1]"
+    XPATH_FIRST_GOOD_IN_CART = "//*[@id='exampleModal']/div/div/div[2]/ul[1]/li/div[2]/span[1]"
 
 
 class HomePageHelper(BasePage):
